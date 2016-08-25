@@ -31,10 +31,7 @@ include_once(_PS_ADMIN_DIR_.'/../config/config.inc.php');
 
 $module = Tools::getValue('module');
 $render = Tools::getValue('render');
-$type = Tools::getValue('type');
-$option = Tools::getValue('option');
-$layers = Tools::getValue('layers');
-$width = Tools::getValue('width');
+
 $height = Tools::getValue('height');
 $id_employee = Tools::getValue('id_employee');
 $id_lang = Tools::getValue('id_lang');
